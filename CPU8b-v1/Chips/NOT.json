@@ -1,0 +1,100 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "NOT",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 0.725,
+    "y": 0.375
+  },
+  "Colour": {
+    "r": 0.3984057,
+    "g": 0.0,
+    "b": 0.3910664,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":1043043445,
+      "Position":{
+        "x":-9.88008,
+        "y":0.30901
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"OUT",
+      "ID":1330903233,
+      "Position":{
+        "x":13.8726,
+        "y":0.25948
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"NAND",
+      "ID":2016551297,
+      "Label":"",
+      "Position":{
+        "x":-2.0781,
+        "y":0.02418
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":2,
+        "PinOwnerID":2016551297
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1330903233
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1043043445
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":2016551297
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1043043445
+      },
+      "TargetPinAddress":{
+        "PinID":1,
+        "PinOwnerID":2016551297
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":1,
+      "ConnectedWireSegmentIndex":0,
+      "Points":[{"x":-5.69358,"y":0.22518},{"x":-5.74379,"y":-0.17397},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays":[]
+}
